@@ -51,7 +51,7 @@ function play() {
     console.log("chance",chances);
 
     if(userValue<computerNum){
-        resultArea.textContent="UP"       
+        resultArea.textContent="UP";
     } else if(userValue>computerNum){
         resultArea.textContent="Down!"
         
